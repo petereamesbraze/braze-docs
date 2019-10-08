@@ -8,6 +8,11 @@ Before completing your Braze implementation, ensure that you have a conversation
 
 This best practice guide will help you to understand exactly what Braze considers to be a "Custom Event" vs. a "Custom Attribute".
 
+# Braze User Profile 
+
+Brazes user profile tracks automatically collected data, custom events, custom attributes, and all of your campaign & messaging data. Data in the profile is what's responsible for powering segments, triggers, conditional logic and host of other powerful functionality in Braze. All User Profile data including Custom Events, Custom Attribute, Custom Data is stored as long as those profiles are active & can be leverage in segmentation.
+
+
 # General Best Practices
 
 ## Don’t Over-Segment Your Tracking
